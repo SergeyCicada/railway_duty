@@ -1,0 +1,55 @@
+# Папки виртуальных окружений
+venv/
+env/
+.venv/
+.env/
+.idea/
+
+# Папки и файлы кэша
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+
+# Папки и файлы IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Конфигурационные файлы
+*.env
+*.db
+*.sqlite3
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Другие временные файлы
+*.bak
+*.tmp
+*.swp
+*.swm
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.cache/
+*.cover
+*.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Модули и пакеты
+dist/
+build/
+*.egg-info/
+.eggs/
